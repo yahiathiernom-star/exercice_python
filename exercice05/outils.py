@@ -1,4 +1,5 @@
 def conv_to_int (texte):
+    texte = texte.replace(",", ".")
     try:
         return float(texte)
     except ValueError:

@@ -1,5 +1,5 @@
 from outils import conv_to_int, mention
-notes_brutes = ["12.5", "15", "abc", "9", "18.25"]
+notes_brutes = ["12,5", "15", "abc", "9", "18.25"]
 notes_nettoyees = []
 for n in notes_brutes:
     note_propre = conv_to_int(n)
