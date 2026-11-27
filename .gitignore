@@ -4,3 +4,10 @@ venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Local datasets and generated data files
+**/data/
+**/datasets/
+*.csv
+*.tsv
+*.parquet
